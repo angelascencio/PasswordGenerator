@@ -25,11 +25,6 @@ function generatePassword(){
      console.log(passwordLength);
   }
 
-//The window prompt will create a boolean
-//var results
-//result = window.confirm("Would you like lowercase values")
-//console.log(results)//
-  
  var characterType = ["uppercase letters", "lowercase letters", "numbers" , "special characters"]
  for (var i=0; i<characterType.length; i++){
 
