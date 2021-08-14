@@ -56,12 +56,14 @@ function generatePassword(){
      finalSelection = finalSelection.concat(specialCharacters[Math.floor(Math.random) * specialCharacters.length]);
      console.log(finalSelection)
    }
+   //This is to make sure that at least one character type has been selected
    else if (finalSelection.length === 0 && i === 3){
      alert("At least one option has to be selected");
         generatePassword();
    }
    //console.log(finaleSelection);//
  }
+ //This will create the password as well as the guaranteed characters
    for (var index = finalSelection.length; index < (passwordLength); index++) {
     finalSelection = finalSelection.concat(characterSelection[Math.floor(Math.random() * characterSelection.length)]);
      console.log(finalSelection);
