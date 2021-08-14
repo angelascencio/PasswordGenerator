@@ -7,3 +7,9 @@
 - The password generator will verify that the user has at least selected one style of characters
 - It will then randomly select code to the user's specification
 - The password will then be displayed in the "Generate a Password" container in the page
+
+!["Password Generator"](./assets/Full-Image.png)
+
+Repository link : https://github.com/angelascencio/PasswordGenerator
+
+Deployed linl : https://angelascencio.github.io/PasswordGenerator/
